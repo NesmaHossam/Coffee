@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: black;
+    position: sticky;
+}
+
+nav div{
+    margin-top: 20px;
+    
+}
+
+a{  
+    margin: 30px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 650px;
+    
+}
+
+h1{
+    color:white;
+    padding-top: 130px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 100px;
+   
+}
+
+nav h4{
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+
+/* review */
+.main-rev{ 
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 900px;
+}
+
+.main-rev p{
+    width: 600px;
+    padding-bottom: 60px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.sec-rev{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+}
+
+
+
+.main-rev h2{
+    margin-bottom: 70px;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-image: url(c1.jpg);
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+
+}
+
+#div-h2{
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    font-size: 30px;
+    margin-left: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 3px;
+    font-style: italic;
+    
+}
+
+/* contact us */
+.contact-us{
+    font-family: Georgia, serif;
+    font-size: 25px;
+    text-align: center;
+    background-image: url(c4.jpg);
+    height: 100%;
+    width: 70%;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 0;
+    margin: 0 auto 0 auto;
+    
+}
+
+.contact-us label{
+    padding: 20px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    width: 100%;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+    
+  }
+
+
+  .contact-us form .btn {
+    margin-top: 40px;
+    border-width: 3px;
+    height: 50px;
+    border-style:hidden ;  
+    border-radius: 30px; 
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+  .contact-us h2{
+    font-size: 80px;
+    padding-top: 20px;
+  }
+
+  .contact-us input,
+  .contact-us textarea {
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 7.5px 20px;
+    transition-duration: 0.4s;
+    transition-delay: 0.3s;
+  }
+  .contact-us input:hover,
+  .contact-us textarea:hover,
+  .contact-us .btn:hover {
+      border:3px solid black;
+      border-style:inset;
+      color: black;
+      
+  }
+
+
+  /* footer */
+
+  footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: black;
+    
+  }
+
+
+
+  /* Menu */
+
+  .menu-header{
+    background-image: url(h1.jpg);
+    background-size: 100% 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+  }
+
+  .menu-header h1{
+    margin-left: 30px;
+    text-decoration: underline;
+  }
+
+  .sec-menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+   
+  }
+
+  .sec-menu h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   font-size: 50px;
+  }
+
+  .sec-menu img{
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+  }
+
+  .sec-menu p{
+    margin-bottom: 30px;
+    font-style: italic;
+  }
